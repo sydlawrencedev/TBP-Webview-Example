@@ -2,6 +2,9 @@
 
 This is just a simple example to show how you can call a webview within a bot, obtain who the user is using the webview, and then also save the responses back in the bot platform as attributes
 
+![Webviews in Workplace by Facebook bots powered by The Bot Platform](http://syddev.com/tbp/webview/screenshots/webview.gif?v=1)
+
+
 ## Step by step
 
 1) Upload this code to an https domain such as `https://example.com/webview/`
