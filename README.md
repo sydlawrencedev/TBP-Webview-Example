@@ -1,4 +1,4 @@
-# Simple Webview example
+# Simple Webview Example
 
 This is just a simple example to show how you can call a webview within a bot, obtain who the user is using the webview, and then also save the responses back in the bot platform as attributes
 
