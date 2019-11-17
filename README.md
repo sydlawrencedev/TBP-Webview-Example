@@ -2,6 +2,17 @@
 
 This is just a simple example to show how you can call a webview within a bot, obtain who the user is using the webview, and then also save the responses back in the bot platform as attributes
 
+## Step by step
+
+1) Upload this code to an https domain such as `https://example.com/webview/`
+2) Create a new bot on the bot platform
+3) Create a success message and an error message, note down the message ids and change them in the code for `https://example.com/webview/webhook.php`
+4) Create new attributes in the bot platform, `switch` & `text`
+5) Whitelist your domain on the bot platform
+6) Create a message on the bot platform that has a button that opens the url `https://example.com/webview/index.html`
+7) Create a message on the bot platform which has a webhook part calling `https://example.com/webview/webhook.php`
+8) Create a message after the webhook part that uses the variables `{{$switch}}` & `{{$text}}`
+
 ## Data flow
 
 1) Person responds via webview which needs to be hosted on your infrastructure
@@ -9,7 +20,7 @@ This is just a simple example to show how you can call a webview within a bot, o
 3) Person tells bot that they've done it
 4) TBP posts webhook to your infrastructure to check data was received
 5) Your infrastructure responds to the webhook with the correct response and setting the data as attributes for the person using the bot
-6) TBP then has the responses as attributes
+6) TBP then has the responses as attributes to be used within messages
 
 ## Troubleshooting
 
