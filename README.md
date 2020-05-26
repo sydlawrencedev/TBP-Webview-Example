@@ -1,8 +1,8 @@
 # Simple Webview Example
 
-This is just a simple example to show how you can call a webview within a bot, obtain who the user is using the webview, and then also save the responses back in the bot platform as attributes
+This is just a simple example to show how you can call a webview within a bot, obtain who the user is using the webview, and then also save the responses back in the bot platform as attributes. Try a demo Messenger bot: http://m.me/103133604490435
 
-<img src="/screenshots/webview.gif?raw=true" width="200px" alt="Webviews in Workplace by Facebook bots powered by The Bot Platform">
+<img src="/screenshots/webview.gif?raw=true" width="200px" alt="Webviews in Workplace from Facebook bots powered by The Bot Platform">
 
 
 ## Step by step
